@@ -11,7 +11,7 @@ const Welcome = () => {
           <div className="image-wrapper">
             <h1 className="page-title">Welcome</h1>
             <img
-              src="./CarlyWebsiteWelcome.png"
+              src="https://res.cloudinary.com/dfbuwtl5q/image/upload/v1674616311/CarlyWebsiteWelcome-min_pjn38b.png"
               className="welcome-image"
               alt="Welcome"
             />
