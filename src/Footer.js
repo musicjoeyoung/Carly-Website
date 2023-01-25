@@ -4,7 +4,13 @@ const Footer = () => {
   return (
     <footer id="footer">
       <div className="socialContainer">
-        <img src="./TwitterIcon.png" alt="Twitter icon" />
+        <a
+          href="https://twitter.com/carlyfanderson"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <img src="./TwitterIcon.png" alt="Twitter icon" />
+        </a>
       </div>
     </footer>
   );

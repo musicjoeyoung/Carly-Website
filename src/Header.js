@@ -18,19 +18,35 @@ const Header = () => {
         <nav className="main-nav" data-content-field="navigation">
           <ul>
             <li className="page-collection">
-              <a href="/">Welcome</a>
+              <a href="/" aria-label="Link to Welcome page" role="menuitem">
+                Welcome
+              </a>
             </li>
 
             <li className="page-collection active-link">
-              <a href="/about">About</a>
+              <a href="/about" aria-label="Link to About page" role="menuitem">
+                About
+              </a>
             </li>
 
             <li className="page-collection">
-              <a href="/selectworks">Select Works</a>
+              <a
+                href="/selectworks"
+                aria-label="Link to Select Works page"
+                role="menuitem"
+              >
+                Select Works
+              </a>
             </li>
 
             <li className="page-collection">
-              <a href="/contact">Contact</a>
+              <a
+                href="/contact"
+                aria-label="Link to Contact page"
+                role="menuitem"
+              >
+                Contact
+              </a>
             </li>
           </ul>
           <div className="page-divider"></div>
