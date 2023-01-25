@@ -3,7 +3,7 @@ import React from "react";
 const HamburgerMenu = () => {
   return (
     <div className="hamburgerMenu">
-      <img src="./dropdown.png" className="dropdownbtn" />
+      <img src="./dropdown.png" className="dropdownbtn" alt="dropdown button" />
       <div className="dropdownContent">
         <li className="li">
           <a href="/welcome">Welcome</a>

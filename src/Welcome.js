@@ -10,7 +10,11 @@ const Welcome = () => {
         <div id="hero">
           <div className="image-wrapper">
             <h1 className="page-title">Welcome</h1>
-            <img src="./CarlyWebsiteWelcome.png" className="welcome-image" />
+            <img
+              src="./CarlyWebsiteWelcome.png"
+              className="welcome-image"
+              alt="Welcome"
+            />
           </div>
           {/*          <div className="wrapper">
             <h1 className="page-title">Welcome</h1>

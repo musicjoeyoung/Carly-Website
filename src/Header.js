@@ -6,7 +6,11 @@ const Header = () => {
       <div id="upper-logo">
         <h1 className="logo">
           <a href="/">
-            <img src="/CarlyWebsite.jpg" id="header-logo"></img>
+            <img
+              src="/CarlyWebsite.jpg"
+              id="header-logo"
+              alt="Carly Anderson"
+            ></img>
           </a>
         </h1>
       </div>

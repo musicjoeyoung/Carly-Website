@@ -4,7 +4,7 @@ const Footer = () => {
   return (
     <footer id="footer">
       <div className="socialContainer">
-        <img src="./TwitterIcon.png" />
+        <img src="./TwitterIcon.png" alt="Twitter icon" />
       </div>
     </footer>
   );
