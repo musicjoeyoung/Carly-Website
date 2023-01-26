@@ -336,6 +336,7 @@ input[type="email"] {
   text-align: center;
   font-size: 21px;
   font-family: "Montserrat";
+  margin-bottom: -30px;
 }
 #messageInput {
   margin: auto;
