@@ -10,7 +10,7 @@ const Contact = () => {
         <Header />
         <section id="page">
           <div>
-            <div>&nbsp;</div>
+            <div className="greeting">Say hello!</div>
           </div>
         </section>
         <ContactForm />
