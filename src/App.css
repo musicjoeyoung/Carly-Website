@@ -318,6 +318,9 @@ li {
   color: black;
   font-family: "Montserrat", sans-serif;
 }
+#messageLabel {
+  padding: 12px 0px 1px 0px;
+}
 input[type="email"] {
   margin-left: 3px;
 }
