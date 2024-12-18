@@ -4,7 +4,9 @@ import { BrowserRouter, Route, Routes } from "react-router-dom";
 
 import About from "./pages/About/About";
 import Contact from "./pages/Contact/Contact";
+import Footer from "./components/Footer/Footer";
 import HamburgerMenu from "./components/HamburgerMenu/HamburgerMenu";
+import Header from "./components/Header/Header";
 import SelectWorks from "./pages/SelectWorks/SelectWorks";
 import Welcome from "./pages/Welcome/Welcome";
 
@@ -18,27 +20,25 @@ console.log(
 
 function App() {
   return (
-    <div className="App">
+
+    <BrowserRouter>
       <HamburgerMenu />
-      <BrowserRouter>
-        <Routes>
-          <Route path="/" element={<Welcome />} />
+      <Header />
+      <Routes>
+        <Route path="/" element={<Welcome />} />
 
-          <Route path="/welcome" element={<Welcome />} />
+        <Route path="/welcome" element={<Welcome />} />
 
-          <Route path="/about" element={<About />} />
+        <Route path="/about" element={<About />} />
 
-          <Route path="/selectworks" element={<SelectWorks />} />
+        <Route path="/selectworks" element={<SelectWorks />} />
 
-          <Route path="/contact" element={<Contact />} />
-        </Routes>
-      </BrowserRouter>
-    </div>
+        <Route path="/contact" element={<Contact />} />
+      </Routes>
+      <Footer />
+    </BrowserRouter>
+
   );
 }
 
 export default App;
-
-
-//mkdir src/components/HamburgerMenu && touch src/components/HamburgerMenu/HamburgerMenu.scss && mv src/HamburgerMenu.tsx src/components/HamburgerMenu/
-

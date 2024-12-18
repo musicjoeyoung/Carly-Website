@@ -1,0 +1,21 @@
+input[type="email"] {
+    margin-left: 3px;
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 3rem 0;
+
+    &__message {
+        margin: auto;
+        height: 143px;
+        width: 100%;
+    }
+
+    &__submit {
+        margin: auto;
+        margin-bottom: 10px;
+    }
+}

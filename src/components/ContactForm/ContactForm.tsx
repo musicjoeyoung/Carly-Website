@@ -54,9 +54,9 @@ const ContactForm = () => {
         Email: <input type="email" name="user_email" ref={emailInput} />
       </label>{" "}
       <label id="messageLabel">Message</label>
-      <textarea name="message" id="messageInput" ref={messageInput} />
+      <textarea name="message" className="contact-form__message" id="message" ref={messageInput} />
       <br />
-      <input type="submit" value="Send" id="submitButton" />
+      <input type="submit" value="Send" className="contact-form__submit" />
     </form>
   );
 };

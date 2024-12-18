@@ -1,0 +1,93 @@
+@use "../../styles/partials/mixins" as *;
+.header {
+    padding: 1rem;
+}
+.upper-logo {
+    //float: left;
+    width: 100%;
+
+    @include tablet {
+        width: 75%;
+    }
+
+    @include desktop {
+        width: 50%;
+    }
+}
+
+.upper-logo-link {
+    @include tablet {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+.logo {
+    -webkit-text-size-adjust: 100%;
+    text-align: center;
+    font-family: proxima-nova;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 3em;
+    text-transform: none;
+    text-decoration: none;
+    letter-spacing: 1px;
+    color: #222;
+    line-height: 0;
+    margin: 0;
+    display: block;
+    max-height: 170px;
+}
+.navbar {
+    display: none;
+
+    @include tablet {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+ul {
+    -webkit-text-size-adjust: 100%;
+    color: #5c5c5c;
+    text-align: center;
+    list-style: none;
+    list-style-image: none;
+    background-color: #fff;
+    font-family: proxima-nova;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    text-decoration: none;
+    width: auto;
+    margin: auto;
+    display: inline-block;
+    line-height: 1.6em;
+    padding: 0 30px;
+}
+.page-collection {
+    -webkit-text-size-adjust: 100%;
+    color: #5c5c5c;
+    list-style: none;
+    list-style-image: none;
+    font-family: proxima-nova;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    //float: left;
+    position: relative;
+    display: inline-block;
+    line-height: 1.6em;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 0px 7px 0px 7px;
+}
+.page-collection:hover {
+    background: #d3d3d39e;
+    border-radius: 21px;
+    padding: 0px 7px 0px 7px;
+}
