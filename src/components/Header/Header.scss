@@ -43,51 +43,31 @@
 
     @include tablet {
         display: flex;
-        justify-content: center;
-        align-items: center;
     }
 }
-ul {
-    -webkit-text-size-adjust: 100%;
-    color: #5c5c5c;
-    text-align: center;
-    list-style: none;
-    list-style-image: none;
-    background-color: #fff;
-    font-family: proxima-nova;
-    font-weight: 400;
-    font-style: normal;
-    font-size: 14px;
-    text-transform: uppercase;
-    letter-spacing: 1px;
-    text-decoration: none;
-    width: auto;
-    margin: auto;
-    display: inline-block;
-    line-height: 1.6em;
-    padding: 0 30px;
-}
+
 .page-collection {
-    -webkit-text-size-adjust: 100%;
-    color: #5c5c5c;
-    list-style: none;
-    list-style-image: none;
-    font-family: proxima-nova;
-    font-weight: 400;
-    font-style: normal;
     font-size: 14px;
-    text-transform: uppercase;
-    letter-spacing: 1px;
-    //float: left;
-    position: relative;
     display: inline-block;
-    line-height: 1.6em;
     margin-left: 10px;
     margin-right: 10px;
     padding: 0px 7px 0px 7px;
+
+    &:hover {
+        background: #d3d3d39e;
+        border-radius: 21px;
+        padding: 0px 7px 0px 7px;
+    }
+
+    &:active {
+        background: #8881819e;
+        border-radius: 21px;
+        padding: 0px 7px 0px 7px;
+    }
 }
-.page-collection:hover {
-    background: #d3d3d39e;
-    border-radius: 21px;
-    padding: 0px 7px 0px 7px;
+
+.navbar-container {
+    width: 100%;
+    margin-top: 40px;
+    float: left;
 }

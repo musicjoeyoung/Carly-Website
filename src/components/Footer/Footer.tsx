@@ -2,8 +2,8 @@ import "./Footer.scss"
 
 const Footer = () => {
   return (
-    <footer id="footer">
-      <div className="socialContainer">
+    <footer className="footer">
+      <div className="footer__socialContainer">
         <a
           href="https://twitter.com/carlyfanderson"
           target="_blank"

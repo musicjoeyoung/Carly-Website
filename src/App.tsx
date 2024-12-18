@@ -26,13 +26,9 @@ function App() {
       <Header />
       <Routes>
         <Route path="/" element={<Welcome />} />
-
         <Route path="/welcome" element={<Welcome />} />
-
         <Route path="/about" element={<About />} />
-
         <Route path="/selectworks" element={<SelectWorks />} />
-
         <Route path="/contact" element={<Contact />} />
       </Routes>
       <Footer />

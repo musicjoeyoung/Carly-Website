@@ -3,6 +3,8 @@ import "./ContactForm.scss";
 import emailjs from "emailjs-com";
 import { useRef } from "react";
 
+const { VITE_YOUR_SERVICE_ID, VITE_YOUR_TEMPLATE_ID } = import.meta.env;
+
 const ContactForm = () => {
   const nameInput = useRef<HTMLInputElement>(null);
   const emailInput = useRef<HTMLInputElement>(null);
@@ -25,8 +27,8 @@ const ContactForm = () => {
 
     emailjs
       .sendForm(
-        "service_wpfh0zg",
-        "template_y9xyayb",
+        VITE_YOUR_SERVICE_ID,
+        VITE_YOUR_TEMPLATE_ID,
         e.target as HTMLFormElement,
         "bvdBTrTEEiR3nwSb9"
       )

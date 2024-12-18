@@ -1,5 +1,7 @@
 import "./Header.scss"
 
+import { NavLink } from "react-router-dom";
+
 const Header = () => {
   return (
     <header className="header">
@@ -12,43 +14,43 @@ const Header = () => {
         />
       </a>
 
+      <div className="navbar-container">
+        <nav className="navbar" >
+          <ul>
+            <li className="page-collection">
+              <NavLink to="/" aria-label="Link to Welcome page" role="menuitem">
+                Welcome
+              </NavLink>
+            </li>
 
-      <nav className="navbar" >
-        <ul>
-          <li className="page-collection">
-            <a href="/" aria-label="Link to Welcome page" role="menuitem">
-              Welcome
-            </a>
-          </li>
+            <li className="page-collection">
+              <NavLink to="/about" aria-label="Link to About page" role="menuitem">
+                About
+              </NavLink>
+            </li>
 
-          <li className="page-collection active-link">
-            <a href="/about" aria-label="Link to About page" role="menuitem">
-              About
-            </a>
-          </li>
+            <li className="page-collection">
+              <NavLink
+                to="/selectworks"
+                aria-label="Link to Select Works page"
+                role="menuitem"
+              >
+                Select Works
+              </NavLink>
+            </li>
 
-          <li className="page-collection">
-            <a
-              href="/selectworks"
-              aria-label="Link to Select Works page"
-              role="menuitem"
-            >
-              Select Works
-            </a>
-          </li>
-
-          <li className="page-collection">
-            <a
-              href="/contact"
-              aria-label="Link to Contact page"
-              role="menuitem"
-            >
-              Contact
-            </a>
-          </li>
-        </ul>
-        <div className="page-divider"></div>
-      </nav>
+            <li className="page-collection">
+              <NavLink
+                to="/contact"
+                aria-label="Link to Contact page"
+                role="menuitem"
+              >
+                Contact
+              </NavLink>
+            </li>
+          </ul>
+        </nav>
+      </div>
 
     </header>
   );
