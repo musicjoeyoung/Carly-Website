@@ -1,7 +1,8 @@
-import React from "react";
-import Header from "./Header";
-import Footer from "./Footer";
-import ContactForm from "./ContactForm";
+import "./Contact.scss"
+
+import ContactForm from "../../components/ContactForm/ContactForm";
+import Footer from "../../components/Footer/Footer";
+import Header from "../../components/Header/Header";
 
 const Contact = () => {
   return (
