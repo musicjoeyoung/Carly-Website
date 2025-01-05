@@ -1,11 +1,12 @@
 import "./HamburgerMenu.scss"
 
 import { Link } from "react-router-dom";
+import dropdown from "../../assets/images/dropdown.png"
 
 const HamburgerMenu = () => {
   return (
     <div className="hamburgerMenu">
-      <img src="./dropdown.png" className="dropdownbtn" alt="dropdown button" />
+      <img src={dropdown} className="dropdownbtn" alt="dropdown button" />
       <div className="dropdownContent">
         <li className="li">
           <Link to="/welcome">Welcome</Link>
