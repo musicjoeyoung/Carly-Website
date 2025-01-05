@@ -1,0 +1,25 @@
+@use "../../styles/partials/mixins" as *;
+
+.page {
+    &__welcome-image {
+        width: 100%;
+        display: block;
+    }
+    &__image-wrapper {
+        position: relative;
+        margin-bottom: 80px;
+    }
+
+    &__title {
+        z-index: 2;
+        position: absolute;
+        top: 41%;
+        font-size: 50px;
+        width: 100%;
+        color: white;
+        text-align: center;
+        font-weight: 300;
+        text-transform: uppercase;
+        letter-spacing: 3px;
+    }
+}

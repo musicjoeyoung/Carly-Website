@@ -1,0 +1,77 @@
+@use "../../styles/partials/mixins" as *;
+.header {
+    padding: 1rem;
+}
+.upper-logo {
+    //float: left;
+    width: 100%;
+
+    @include tablet {
+        width: 65%;
+    }
+
+    @include desktop {
+        width: 50%;
+    }
+}
+
+.upper-logo-link {
+    @include tablet {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+.logo {
+    -webkit-text-size-adjust: 100%;
+    text-align: center;
+    font-family: proxima-nova;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 3em;
+    text-transform: none;
+    text-decoration: none;
+    letter-spacing: 1px;
+    color: #222;
+    line-height: 0;
+    margin: 0;
+    display: block;
+    max-height: 170px;
+}
+.navbar {
+    display: none;
+
+    @include tablet {
+        display: flex;
+    }
+}
+
+.page-collection {
+    font-size: 14px;
+    display: inline-block;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 0px 7px 0px 7px;
+
+    &:hover {
+        background: #d3d3d39e;
+        border-radius: 21px;
+        padding: 0px 7px 0px 7px;
+    }
+
+    &:active {
+        background: #8881819e;
+        border-radius: 21px;
+        padding: 0px 7px 0px 7px;
+    }
+}
+
+.navbar-container {
+    width: 100%;
+    margin-top: 40px;
+    float: left;
+
+    @include desktop {
+        margin-top: 70px;
+    }
+}

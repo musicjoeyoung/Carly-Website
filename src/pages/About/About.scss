@@ -1,0 +1,11 @@
+@use "../../styles/partials/mixins" as *;
+.page {
+    &__section {
+        margin: 1rem 0;
+
+        @include tablet {
+            width: 75%;
+            margin: 0 auto;
+        }
+    }
+}

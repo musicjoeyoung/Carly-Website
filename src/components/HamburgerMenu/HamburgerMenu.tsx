@@ -1,4 +1,6 @@
-import React from "react";
+import "./HamburgerMenu.scss"
+
+import { Link } from "react-router-dom";
 
 const HamburgerMenu = () => {
   return (
@@ -6,16 +8,16 @@ const HamburgerMenu = () => {
       <img src="./dropdown.png" className="dropdownbtn" alt="dropdown button" />
       <div className="dropdownContent">
         <li className="li">
-          <a href="/welcome">Welcome</a>
+          <Link to="/welcome">Welcome</Link>
         </li>
         <li className="li">
-          <a href="/about">About</a>
+          <Link to="/about">About</Link>
         </li>
         <li className="li">
-          <a href="/selectworks">Select Works</a>
+          <Link to="/selectworks">Select Works</Link>
         </li>
         <li className="li">
-          <a href="/contact">Contact</a>
+          <Link to="/contact">Contact</Link>
         </li>
       </div>
     </div>

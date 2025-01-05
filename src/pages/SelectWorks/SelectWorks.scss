@@ -1,0 +1,29 @@
+@use "../../styles/partials/mixins" as *;
+
+.works {
+    margin: 0 auto;
+
+    @include desktop {
+        width: 50%;
+    }
+}
+.worksUl {
+    -webkit-text-size-adjust: 100%;
+    color: #5c5c5c;
+    padding: 0 0 0 40px;
+    font-family: Merriweather;
+    font-weight: 300;
+    font-style: normal;
+    line-height: 1.8em;
+    font-size: 14px;
+    text-transform: none;
+    text-decoration: none;
+    margin: 1em 0;
+    word-wrap: break-word;
+    text-align: left;
+
+    li:hover {
+        background: #d3d3d39e;
+        border-radius: 21px;
+    }
+}
