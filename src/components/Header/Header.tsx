@@ -1,6 +1,7 @@
 import "./Header.scss"
 
 import { NavLink } from "react-router-dom";
+import logo from "../../assets/images/CarlyWebsite.jpg"
 
 const Header = () => {
   return (
@@ -8,7 +9,7 @@ const Header = () => {
 
       <a href="/" className="upper-logo-link">
         <img
-          src="/CarlyWebsite.jpg"
+          src={logo}
           alt="Carly Anderson"
           className="upper-logo"
         />
