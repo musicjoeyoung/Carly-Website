@@ -19,13 +19,13 @@ const works = {
     {
       title: "Laundry Day",
       publication: "Boston Literary Magazine",
-      link: "src/assets/documents/Laundry_Day_Carly_Anderson.pdf",
+      link: "/documents/Laundry_Day_Carly_Anderson.pdf",
       isPdf: true
     },
     {
       title: "No Going Back",
       publication: "Newtown Literary",
-      link: "src/assets/documents//No_Going_Back_Carly_Anderson.pdf",
+      link: "/documents/No_Going_Back_Carly_Anderson.pdf",
       isPdf: true
     }
   ]
