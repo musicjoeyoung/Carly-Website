@@ -11,12 +11,12 @@ const HamburgerMenu = () => {
         <li className="li">
           <Link to="/welcome">Welcome</Link>
         </li>
-        <li className="li">
+        {/*       <li className="li">
           <Link to="/about">About</Link>
         </li>
         <li className="li">
           <Link to="/selectworks">Select Works</Link>
-        </li>
+        </li> */}
         <li className="li">
           <Link to="/contact">Contact</Link>
         </li>
