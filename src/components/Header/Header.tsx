@@ -15,6 +15,8 @@ const Header = () => {
         />
       </a>
 
+      <h2 className="updating">Thanks for visiting! This site is currently being updated. Check back again soon!</h2>
+
       <div className="navbar-container">
         <nav className="navbar" >
           <ul>
@@ -24,7 +26,7 @@ const Header = () => {
               </NavLink>
             </li>
 
-            <li className="page-collection">
+            {/*             <li className="page-collection">
               <NavLink to="/about" aria-label="Link to About page" role="menuitem">
                 About
               </NavLink>
@@ -38,7 +40,7 @@ const Header = () => {
               >
                 Select Works
               </NavLink>
-            </li>
+            </li> */}
 
             <li className="page-collection">
               <NavLink
